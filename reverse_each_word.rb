@@ -3,6 +3,6 @@ def reverse_each_word(sentence)
   #split method is string.split().
   reversed_sentence = []
   words.collect do |a|
-   reversed_sentence.push word.reverse  a.reverse 
+   reversed_sentence.push a.reverse 
   end
 end
